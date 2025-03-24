@@ -10,7 +10,7 @@ This guide provides all necessary steps to set up a Cypress project with TypeScr
 git clone <your-repository-url>
 cd <your-project-folder>
 
-# nitialize the Project (If Not Already Initialized)
+# Initialize the Project (If Not Already Initialized)
 npm init -y
 
 # Install Cypress
@@ -22,7 +22,7 @@ npm install typescript @types/node ts-node --save-dev
 # Install Mochawesome for Reports
 npm install mochawesome mochawesome-merge mochawesome-report
 
-#Ensure that node_modules is installed
+# Ensure that node_modules is installed
 npm install  # Installs all dependencies from package.json (including Cypress if listed)
 
 # To run the project use this command

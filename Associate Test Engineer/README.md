@@ -19,8 +19,11 @@ npm install cypress --save-dev
 # Install TypeScript and Required Dependencies (The project is using TypeScript)
 npm install typescript @types/node ts-node --save-dev
 
-# nstall Mochawesome for Reports
+# Install Mochawesome for Reports
 npm install mochawesome mochawesome-merge mochawesome-report
+
+#Ensure that node_modules is installed
+npm install  # Installs all dependencies from package.json (including Cypress if listed)
 
 # To run the project use this command
 npx cypress open

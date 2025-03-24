@@ -1,0 +1,37 @@
+{
+  "devDependencies": {
+    "@eslint/js": "9.20.0",
+    "@types/cypress": "^1.1.6",
+    "@types/mocha": "^10.0.8",
+    "@types/node": "^22.5.4",
+    "buffer": "^6.0.3",
+    "cypress": "^13.17.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-localstorage-commands": "^2.2.6",
+    "cypress-otp": "^1.0.3",
+    "cypress-shadow-dom": "^1.4.1",
+    "cypress-xpath": "^2.0.1",
+    "eslint": "9.20.0",
+    "eslint-config-prettier": "10.0.1",
+    "eslint-plugin-cypress": "4.1.0",
+    "javascript": "^1.0.0",
+    "jiti": "2.4.2",
+    "jose": "^5.9.6",
+    "junit-report-merger": "7.0.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.4.1",
+    "mochawesome-report-generator": "^6.2.0",
+    "prettier": "3.5.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "8.24.0"
+  },
+  "scripts": {
+    "ci:set-port": "node ./scripts/set-port",
+    "QA cypress headless": "cypress run --browser chrome --env environmentName=qa",
+    "QA Interactive ": "cypress open --env environmentName=qa",
+    "DEV cypress headless": "cypress run --browser chrome --env environmentName=dev",
+    "DEV Interactive ": "cypress open --env environmentName=dev",
+    "Local Interactive ": "cypress open --env environmentName=local",
+    "Local cypress headless": "cypress run --browser chrome --env environmentName=local"
+  }
+}
